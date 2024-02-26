@@ -11,5 +11,9 @@ Users will be able to input any graph, but ensure the input graph parameters and
 For the tests, the **unittest** module is used to assert certain matrices.
 The tests will help you identify if the matrices are matching the expected value, however you will need to change the expected output matrix in the recursive_test_final.
 
+There will be two input graphs in the test file:
 
+1.**input_graph** : Represents the correct input
+2.**error_input_graph** : Some indices are changed to provide a false input matrix
 
+Both are used to assert the final result.
